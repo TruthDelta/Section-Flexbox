@@ -1,14 +1,35 @@
-header {
+* {
+margin: 0;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
 background-color: black;
 color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100px;
+padding: 60px;
+flex-wrap: wrap; /*permite que possa quebrar-lo em dispositivos menores*/
+}
+
+.header i {
+font-size: 100px;
+margin-left: 50px;
 }
 
 h2 {
 text-align: center;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size: 40px;
 margin-bottom: -40px;
 margin-top: 60px;
+}
+
+.menu {
+display: flex;
+margin-right: 50px;
 }
 
 .father {
@@ -17,3 +38,7 @@ margin-top: 60px;
     margin: 50px;
 }
 
+.meio2 {
+background-color: gray;
+
+}
